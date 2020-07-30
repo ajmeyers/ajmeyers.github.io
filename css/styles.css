@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+main {
+    background-color: #1F4068;
+    overflow: hidden;
+}
+
+figure {
+    flex-basis: 40%;
+    text-align: center;
+}
+
+img {
+    border-radius: 100%;
+    max-width: 15%;
+}
+
+section#profile {
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+section#aboutme {
+    background-color: #EBECF1;
+}
+
+section#projects {
+    background-color: #EBECF1;
+}
+
+section#education {
+    background-color: #EBECF1;
+}
+
+footer {
+    background-color: #206A5D;
+    color: white;
+}
