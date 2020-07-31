@@ -1,14 +1,12 @@
+/* Tag Styles */
 body {
     margin: 0;
 }
 
-main {
-    background-color: #1F4068;
-    overflow: hidden;
-}
-
 h1 {
     text-align: center;
+    font-size: 30px;
+    font-family: courier,arial,helvetica;
 }
 
 h2 {
@@ -21,7 +19,7 @@ figure {
 }
 
 img {
-    border-radius: 100%;
+    border-radius: 80%;
     max-width: 15%;
 }
 
@@ -29,26 +27,52 @@ a {
     color: white;
 }
 
-section#profile {
+/* Section Styles */
+
+main {
+    background-color: #1F4068;
+    overflow: hidden;
     margin: 0; 
     padding: 0;
+}
+
+section#profile {
     color: white;
-    font-family: 'Lato', sans-serif;
+    
 }
 
 section#aboutme {
+    border-style: double;
     background-color: #EBECF1;
+    text-align: center;
+    font-family: courier,arial,helvetica;
+    overflow: hidden;
+    margin: 0; 
+    padding: 0;
 }
 
 section#projects {
+    border-style: double;
     background-color: #EBECF1;
+    text-align: center;
+    font-family: courier,arial,helvetica;
+    overflow: hidden;
+    margin: 0; 
+    padding: 0;
 }
 
 section#education {
+    border-style: double;
     background-color: #EBECF1;
+    text-align: center;
+    font-family: courier,arial,helvetica;
+    overflow: hidden;
+    margin: 0; 
+    padding: 0;
 }
 
 footer {
+    padding-top: 5px;
     text-align: center;
     background-color: #206A5D;
     color: white;
