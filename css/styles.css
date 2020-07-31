@@ -1,4 +1,5 @@
 /* Tag Styles */
+
 body {
     margin: 0;
 }
@@ -28,7 +29,27 @@ a {
 }
 
 a.buttonlink {
-    color: pink;
+    line-height: 100%;
+    padding: 10px;
+    font-family: courier,arial,helvetica;
+    background: #48bfe3;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
+    width: 18vw;
+    border-radius: 25px;
+    text-align: center;
+}
+
+div.buttonlinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.school {
+    font-size: 20px;
 }
 
 /* Section Styles */
@@ -42,7 +63,7 @@ main {
 
 section#profile {
     color: white;
-    
+    align-items: center;
 }
 
 section#aboutme {
@@ -80,5 +101,5 @@ footer {
     text-align: center;
     background-color: #206A5D;
     color: white;
-    min-height: 20vh;
+    min-height: 22vh;
 }
