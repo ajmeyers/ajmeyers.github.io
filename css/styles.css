@@ -27,6 +27,10 @@ a {
     color: white;
 }
 
+a.buttonlink {
+    color: pink;
+}
+
 /* Section Styles */
 
 main {
