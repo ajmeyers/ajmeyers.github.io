@@ -42,6 +42,10 @@ a.buttonlink {
     text-align: center;
 }
 
+a.projects {
+    color: #48bfe3;
+}
+
 div.buttonlinks {
     display: flex;
     align-items: center;
@@ -50,6 +54,13 @@ div.buttonlinks {
 
 p.school {
     font-size: 20px;
+}
+
+p.aboutme {
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* Section Styles */
@@ -68,7 +79,7 @@ section#profile {
 
 section#aboutme {
     border-style: double;
-    background-color: #EBECF1;
+    background-color: white;
     text-align: center;
     font-family: courier,arial,helvetica;
     overflow: hidden;
@@ -78,7 +89,7 @@ section#aboutme {
 
 section#projects {
     border-style: double;
-    background-color: #EBECF1;
+    background-color: white;
     text-align: center;
     font-family: courier,arial,helvetica;
     overflow: hidden;
@@ -88,7 +99,7 @@ section#projects {
 
 section#education {
     border-style: double;
-    background-color: #EBECF1;
+    background-color: white;
     text-align: center;
     font-family: courier,arial,helvetica;
     overflow: hidden;
